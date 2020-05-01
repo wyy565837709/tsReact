@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import ITime from "./modules/time";
 import './App.css';
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
         >
           Learn React
         </a>
+        <ITime
+          name="现在时间"
+          colorName="App-mycolor"
+        />
       </header>
     </div>
   );
